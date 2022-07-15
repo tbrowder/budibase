@@ -28,13 +28,13 @@
     chalk "^2.0.0"
     js-tokens "^4.0.0"
 
-"@budibase/bbui@^1.0.97":
-  version "1.0.97"
-  resolved "https://registry.yarnpkg.com/@budibase/bbui/-/bbui-1.0.97.tgz#6d36cdbeeaaf3a7b299a8a677f0739b682b49bf3"
-  integrity sha512-AMwDCz0qm4rZp50TY83JJTjqOAlZPdirzsLM4Iydn2dWlaqpcwnB3VZOzgb+mC72uH5eKeqI74Nu7hh3CvtXBw==
+"@budibase/bbui@^1.0.105-alpha.0", "@budibase/bbui@^1.1.11":
+  version "1.1.11"
+  resolved "https://registry.yarnpkg.com/@budibase/bbui/-/bbui-1.1.11.tgz#513e4fd496fb25660e9edd970c2638c8ad54efc4"
+  integrity sha512-iRToMtMyfW3atUtNYYtec59tTw6mFFvv4DKcUBWfGqxbeh2+mR5Iy3jmW9eGOFqd8yU/7ml6o7F6cI6J75WGUw==
   dependencies:
     "@adobe/spectrum-css-workflow-icons" "^1.2.1"
-    "@budibase/string-templates" "^1.0.97"
+    "@budibase/string-templates" "^1.1.11"
     "@spectrum-css/actionbutton" "^1.0.1"
     "@spectrum-css/actiongroup" "^1.0.1"
     "@spectrum-css/avatar" "^3.0.2"
@@ -62,11 +62,12 @@
     "@spectrum-css/radio" "^3.0.2"
     "@spectrum-css/search" "^3.0.2"
     "@spectrum-css/sidenav" "^3.0.2"
+    "@spectrum-css/slider" "3.0.1"
     "@spectrum-css/statuslight" "^3.0.2"
     "@spectrum-css/stepper" "^3.0.3"
     "@spectrum-css/switch" "^1.0.2"
     "@spectrum-css/table" "^3.0.1"
-    "@spectrum-css/tabs" "^3.0.1"
+    "@spectrum-css/tabs" "^3.2.12"
     "@spectrum-css/tags" "^3.0.2"
     "@spectrum-css/textfield" "^3.0.1"
     "@spectrum-css/toast" "^3.0.1"
@@ -80,12 +81,12 @@
     svelte-flatpickr "^3.2.3"
     svelte-portal "^1.0.0"
 
-"@budibase/frontend-core@^1.0.97":
-  version "1.0.97"
-  resolved "https://registry.yarnpkg.com/@budibase/frontend-core/-/frontend-core-1.0.97.tgz#530a0c716fbc93dd38d7abcc22b3131030f9cd16"
-  integrity sha512-B2LG9UIEKSLE0NBhPlVLYXAypjBZgiPdqGwoNm7xcWZHG12YzYWqflV3NLwaDx9Qt3UTIaRzXqBGoNNQCGdUdQ==
+"@budibase/frontend-core@^1.0.105-alpha.0":
+  version "1.1.11"
+  resolved "https://registry.yarnpkg.com/@budibase/frontend-core/-/frontend-core-1.1.11.tgz#8ce4a0cc40344e822539337b7241560169c815ec"
+  integrity sha512-tMKa3GVwd9j4T0P9AmCVhWtIjyzBJQhoxjlOCpIsP+UkeIAr+rddOVgbjDhIh38mxMC06XdqNCuLcCFSFPh49w==
   dependencies:
-    "@budibase/bbui" "^1.0.97"
+    "@budibase/bbui" "^1.1.11"
     lodash "^4.17.21"
     svelte "^3.46.2"
 
@@ -114,10 +115,10 @@
     to-gfm-code-block "^0.1.1"
     year "^0.2.1"
 
-"@budibase/string-templates@^1.0.97":
-  version "1.0.97"
-  resolved "https://registry.yarnpkg.com/@budibase/string-templates/-/string-templates-1.0.97.tgz#b7485cb8774d6dff8280fbf411c6383b82add72d"
-  integrity sha512-8NfpYzDJgSkic3E0ARfNsPsFEMmOcH+kEeTioLkNnkKrviIRhSQ9Oa3S87QIYo5WGYxpEFEfhYutXsbp3GTLbg==
+"@budibase/string-templates@^1.0.105-alpha.0", "@budibase/string-templates@^1.1.11":
+  version "1.1.11"
+  resolved "https://registry.yarnpkg.com/@budibase/string-templates/-/string-templates-1.1.11.tgz#7466b7e10f96e4eb45ccf39bafd4a511abba2e49"
+  integrity sha512-yDj4rkmzWs0yn8r3cUYEkpJX3yqK2zHrBw0cNN7L3cUwX+MJsOgLAt9J7sub0nUmQJR2+ookjP3bysYc7N7v3Q==
   dependencies:
     "@budibase/handlebars-helpers" "^0.11.8"
     dayjs "^1.10.4"
@@ -330,6 +331,11 @@
   resolved "https://registry.yarnpkg.com/@spectrum-css/sidenav/-/sidenav-3.0.19.tgz#4d1dffef94e584004443ca5ed4e3b8e88957031d"
   integrity sha512-9UJ9PgG2vvYsFXCFYBAMSo05tDZHDHubbUhaSEinp2mCoO+pe76wxyP0CXSPypif1qOt5JCkeRsdbGC0Jb2m8A==
 
+"@spectrum-css/slider@3.0.1":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@spectrum-css/slider/-/slider-3.0.1.tgz#5281e6f47eb5a4fd3d1816c138bf66d01d7f2e49"
+  integrity sha512-DI2dtMRnQuDM1miVzl3SGyR1khUEKnwdXfO5EHDFwkC3yav43F5QogkfjmjFmWWobMVovdJlAuiaaJ/IHejD0Q==
+
 "@spectrum-css/statuslight@^3.0.2":
   version "3.0.8"
   resolved "https://registry.yarnpkg.com/@spectrum-css/statuslight/-/statuslight-3.0.8.tgz#3b0ea80712573679870a85d469850230e794a0f7"
@@ -350,10 +356,10 @@
   resolved "https://registry.yarnpkg.com/@spectrum-css/table/-/table-3.0.3.tgz#7f7f19905ef3275cbf907ce3a5818e63c30b2caf"
   integrity sha512-nxwzVjLPsXoY/v4sdxOVYLcC+cEbGgJyLcLclT5LT9MGSbngFeUMJzzVR4EvehzuN4dH7hrATG7Mbuq29Mf0Hg==
 
-"@spectrum-css/tabs@^3.0.1":
-  version "3.2.9"
-  resolved "https://registry.yarnpkg.com/@spectrum-css/tabs/-/tabs-3.2.9.tgz#ffe6c172cdfbb86b5aecc54494862c6d035fdfc4"
-  integrity sha512-rPRMpj3cq+ADhF8SitDkaZ5FvlKGRCKln8XfVbeCRMTU9lwz7u5p6qSwX04Pur/wXUk+AMKccRAaPa+ijyoGTA==
+"@spectrum-css/tabs@^3.2.12":
+  version "3.2.18"
+  resolved "https://registry.yarnpkg.com/@spectrum-css/tabs/-/tabs-3.2.18.tgz#a5549669065cf5989caa1129b565836e98c8a4c4"
+  integrity sha512-1mxib5v09rXHwek4sr2wlraOAEwWCDqFBBAbY1k03DriDhvrvknjJI+I6Aj7tJvAV+WK7W6n7wkSmUNIsEinVA==
 
 "@spectrum-css/tag@^3.1.4":
   version "3.3.5"
@@ -2613,9 +2619,9 @@ svelte-spa-router@^3.0.5:
     regexparam "2.0.0"
 
 svelte@^3.38.2, svelte@^3.46.2:
-  version "3.46.4"
-  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.46.4.tgz#0c46bc4a3e20a2617a1b7dc43a722f9d6c084a38"
-  integrity sha512-qKJzw6DpA33CIa+C/rGp4AUdSfii0DOTCzj/2YpSKKayw5WGSS624Et9L1nU1k2OVRS9vaENQXp2CVZNU+xvIg==
+  version "3.49.0"
+  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.49.0.tgz#5baee3c672306de1070c3b7888fc2204e36a4029"
+  integrity sha512-+lmjic1pApJWDfPCpUUTc1m8azDqYCG1JN9YEngrx/hUyIcFJo6VZhj0A1Ai0wqoHcEIuQy+e9tk+4uDgdtsFA==
 
 svg.draggable.js@^2.2.2:
   version "2.2.2"
